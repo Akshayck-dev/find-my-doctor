@@ -1,16 +1,29 @@
 # FindMyDoctor Kozhikode
 
-A static MVP for discovering doctors in Kozhikode using public hospital-directory data.
+React + Vite version of the FindMyDoctor Kozhikode MVP.
 
-## Live demo
-https://find-my-doctor-kozhikode-akshayckphotosbackup-8915s-projects.vercel.app
+## Run locally
 
-## Current scope
+```bash
+npm install
+npm run dev
+```
+
+## Production build
+
+```bash
+npm run build
+```
+
+## Features
+
 - 100 doctor profiles
-- 3 hospital directories
 - Search by doctor, specialty, and hospital
-- Profile modal with hospital contact, directions, and official source links
+- Hospital and specialty filters
+- Reusable React doctor cards and profile modal
+- Official source, call, directions, and search actions
 - Selected enriched profiles with qualification/designation/experience or OP schedule
 
 ## Data note
-"Official source" means the doctor appears on a hospital's public directory. Medical registration verification and doctor-specific ratings are not claimed unless separately verified.
+
+“Official source” means the doctor appears on a hospital's public directory. Medical registration verification and doctor-specific ratings are not claimed unless separately verified.
